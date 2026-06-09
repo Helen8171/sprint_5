@@ -6,5 +6,5 @@ class TestData:
     INVALID_EMAIL = "invalid_email_format"
 
 class Credentials:
-    EXISTING_USER_EMAIL = "zanyato@mail.ru" 
+    EXISTING_USER_EMAIL = "test_fresh2024@mail.ru"
     EXISTING_USER_PASSWORD = "Password123!"

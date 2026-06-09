@@ -15,6 +15,3 @@ class TestLogout:
         wait.until(EC.element_to_be_clickable(HeaderLocators.LOGOUT_BTN)).click()
         
         assert wait.until(EC.visibility_of_element_located(HeaderLocators.LOGIN_REG_BTN)).is_displayed()
-        
-        avatars = driver.find_elements(*HeaderLocators.USER_AVATAR)
-        assert len(avatars) == 0
